@@ -1,0 +1,405 @@
+
+/* RESPONSIVO 1024PX */
+
+@media screen and (max-width: 1024px) {
+
+.container1 {
+  flex-direction: column;
+}
+
+.header p { 
+  font-size: 30px;
+  font-family: "Poppins";
+  line-height: 1.6;
+  max-width: 70ch;
+  margin-top: 50px;
+}
+
+.container1 .imagemdudu {
+  width: 60%;
+
+  margin-top: 70px;
+
+  border-top-right-radius: 150px;
+}
+
+.card {
+  flex-direction: column;
+
+  width: 800px;
+  height: 1190px;
+}
+
+.card img {
+  width: 80%;
+  border-right: 0;
+  border-bottom: 0.5px solid white;
+}
+
+.empresas img {
+  width: 80px;
+}
+
+.ingles .texto h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ingles {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+}
+
+ .caixafooter {
+   padding: 0;
+ }
+
+.caixafooter h1 {
+  text-align: center;
+}
+
+.caixafooter p {
+  text-align: center;
+}
+
+  footer {
+    padding: 3rem;
+}
+
+.timeline {
+  width: 500px;
+}
+
+}
+
+
+
+
+/* RESPONSIVO 768PX */
+
+@media screen and (max-width: 768px) {
+
+.container1 {
+  flex-direction: column;
+}
+
+.header p { 
+  font-size: 30px;
+  font-family: "Poppins";
+  line-height: 1.6;
+  max-width: 70ch;
+  margin-top: 50px;
+}
+
+.container1 .imagemdudu {
+  width: 470px;
+
+  margin-top: 70px;
+
+  border-top-right-radius: 150px;
+}
+
+.card {
+  flex-direction: column;
+
+  width: 600px;
+  height: 1280px;
+}
+
+.card img {
+  width: 80%;
+  border-right: 0;
+  border-bottom: 0.5px solid white;
+}
+
+.empresas img {
+  width: 80px;
+}
+
+.ingles .texto h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ingles {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+}
+
+ .caixafooter {
+   padding: 0;
+ }
+
+.caixafooter h1 {
+  text-align: center;
+}
+
+.caixafooter p {
+  text-align: center;
+}
+
+  footer {
+    padding: 3rem;
+}
+
+.timeline {
+  width: 500px;
+}
+
+}
+
+
+/* RESPONSIVO 375PX */
+
+@media screen and (max-width: 375px) {
+
+.container1 {
+  flex-direction: column;
+}
+
+.header {
+  padding: 0.5rem;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header p { 
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 50px;
+}
+
+.imagemdudu {
+  max-width: 260px;
+  margin-left: 0rem;
+}
+
+.card {
+  flex-direction: column;
+
+  width: 300px;
+  height: 1200px;
+  background: 454a8c;
+  border-radius: 110px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card .informaçoes {
+  padding: 1.5rem;
+
+  font-size: 19px;
+}
+
+.card .informaçoes h1 {
+  font-size: 35px;
+}
+
+section .timeline {
+  width: 100%;
+}
+
+.empresas img {
+  width: 0px;
+}
+
+.ingles {
+  padding: 0.5rem;
+}
+
+.ingles img {
+  width: 300px;
+}
+
+.ingles h1 {
+  font-size: 40px;
+
+  padding: 0.3rem;
+}
+
+.caixafooter {
+  font-size: 15px;
+}
+
+.footercontato nav ul li img {
+  width: 50px;
+}
+
+.container2 {
+  padding: 1rem;
+}
+
+}
+
+
+/* RESPONSIVO 425PX */
+
+@media screen and (max-width: 425px) {
+
+.container1 {
+  flex-direction: column;
+}
+
+.header {
+  padding: 0.5rem;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header p { 
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 50px;
+}
+
+.imagemdudu {
+  max-width: 320px;
+  margin-left: 0rem;
+}
+
+.card {
+  flex-direction: column;
+
+  width: 360px;
+  height: 1200px;
+  background: 454a8c;
+  border-radius: 110px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card .informaçoes {
+  padding: 1.5rem;
+
+  font-size: 19px;
+}
+
+.card .informaçoes h1 {
+  font-size: 35px;
+}
+
+section .timeline {
+  width: 100%;
+}
+
+.empresas img {
+  width: 0px;
+}
+
+.ingles {
+  padding: 0.5rem;
+}
+
+.ingles img {
+  width: 300px;
+}
+
+.ingles h1 {
+  font-size: 40px;
+
+  padding: 0.3rem;
+}
+
+.caixafooter {
+  font-size: 15px;
+}
+
+.footercontato nav ul li img {
+  width: 50px;
+}
+
+.container2 {
+  padding: 1rem;
+}
+
+}
+
+
+
+/* RESPONSIVO 320PX */
+
+
+@media screen and (max-width: 320px) {
+
+.container1 {
+  flex-direction: column;
+}
+
+.header {
+  padding: 0.5rem;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header p { 
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 50px;
+}
+
+.imagemdudu {
+  max-width: 230px;
+  margin-left: 0rem;
+}
+
+.card {
+  flex-direction: column;
+
+  width: 300px;
+  height: 1150px;
+  background: 454a8c;
+  border-radius: 110px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card .informaçoes {
+  padding: 1.5rem;
+
+  font-size: 19px;
+}
+
+.card .informaçoes h1 {
+  font-size: 35px;
+}
+
+section .timeline {
+  width: 100%;
+}
+
+.empresas img {
+  width: 0px;
+}
+
+.ingles {
+  padding: 0.5rem;
+}
+
+.ingles img {
+  width: 300px;
+}
+
+.ingles h1 {
+  font-size: 40px;
+
+  padding: 0.3rem;
+}
+
+.caixafooter {
+  font-size: 15px;
+}
+
+.footercontato nav ul li img {
+  width: 50px;
+}
+
+.container2 {
+  padding: 1rem;
+}
+
+}

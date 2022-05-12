@@ -1,0 +1,204 @@
+@import url(reset.css);
+@import url(timeline.css);
+@import url(responsivo.css);
+@import url(responsivotablet.css);
+@import url(responsivomobile.css);
+
+body {
+  background: #e7e7e6;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5rem;
+}
+
+.header {
+  padding: 3rem;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: "Montserrat";
+  margin-top: 50px;
+}
+
+.header p { 
+  font-size: 30px;
+  font-family: "Poppins";
+  line-height: 1.6;
+  max-width: 48ch;
+  margin-top: 50px;
+}
+
+.imagemdudu {
+  width: 40%;
+  margin-left: 5rem;
+  border-top-left-radius: 150px;
+  box-shadow: rgba(69, 74, 140, 1.0) 5px 5px, rgba(69, 74, 140, 0.9) 10px 10px, rgba(69, 74, 140, 0.7) 15px 15px, rgba(69, 74, 140, 0.5) 20px 20px, rgba(69, 74, 140, 0.04) 25px 25px, rgba(69, 74, 140, 0.03) 30px 30px, rgba(69, 74, 140, 0.01) 40px 40px;
+}
+
+.profile {
+  margin-top: 300px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 1rem;
+
+  width: 1600px;
+  height: 540px;
+  background: #454a8c;
+  border-radius: 110px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card img {
+  width: 28%;
+  padding: 1.5rem;
+
+  object-fit: cover;
+
+  border-radius: 110px;
+  border-right: 0.5px solid white;
+}
+
+.card .informaçoes {
+  padding: 3rem;
+  font-size: 25px;
+
+  color: white;
+
+  font-family: "Poppins";
+}
+
+.card .informaçoes h1 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+
+  font-family: "Montserrat"
+}
+
+.empresas {
+  margin-top: 300px;
+
+  display: flex;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 60px;
+
+  width: 100%;
+}
+
+.empresas img {
+  width: 120px;
+  transition: 0.7s;
+
+  object-fit: cover;
+}
+
+.empresas img:hover {
+  transform: scale(1.4);
+  transition: 0.7s;
+}
+
+.ingles {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  margin-top: 200px;
+  padding: 5rem;
+}
+
+.ingles .texto {
+  padding-left: 1rem;
+}
+
+.ingles h1 {
+  padding: 1rem;
+
+  font-size: 50px;
+  font-family: "Montserrat"
+}
+
+.ingles img {
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.ingles p {
+  padding: 1rem;
+
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+footer {
+  background: #454a8c;
+  
+  margin-top: 200px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  padding: 5rem;
+}
+
+.caixafooter {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  gap: 30px;
+
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: white;
+}
+
+.footercontato nav ul {
+  display: flex;
+  flex-direction: row;
+
+
+  align-items: center;
+  align-content: center;
+  margin-top: 40px;
+  gap: 35px;
+
+  width: 100%;
+}
+
+.footercontato nav ul li img {
+  width: 80px;
+  transition: 0.7s;
+}
+
+.footercontato nav ul li img:hover {
+  transform: scale(1.4);
+}
