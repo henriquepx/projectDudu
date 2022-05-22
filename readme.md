@@ -11,6 +11,6 @@
 
 ## Sobre
 
-<p>Projeto apresentando o portfólio e carreira de um profissional professor de Inglês. Sua trajetória apresentada em uma linha do tempo e um convite pra aprender Inglês.
+<p>Projeto responsivo apresentando o portfólio e carreira de um profissional professor de Inglês. Sua trajetória apresentada em uma linha do tempo e um convite pra aprender Inglês. 
 
 ![Página](https://github.com/henriquepx/projectDudu/blob/main/assets/dudupag.png)
