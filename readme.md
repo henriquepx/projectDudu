@@ -12,7 +12,7 @@
 ## Sobre
 
 <p>Projeto responsivo apresentando o portfólio e carreira de um profissional professor de Inglês. Sua trajetória apresentada em uma linha do tempo e um convite pra aprender Inglês. 
-
+  
+<br>
+  
 ![Página](https://github.com/henriquepx/projectDudu/blob/main/assets/dudupag.png)
-
-![Página mobile](https://github.com/henriquepx/projectDudu/blob/main/assets/dudupagemobile.png)
